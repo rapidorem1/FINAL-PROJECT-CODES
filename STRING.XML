@@ -1,0 +1,35 @@
+STRING.XML
+<resources>
+
+    <!-- App Title -->
+    <string name="app_name">PawMinder</string>
+
+    <!-- Input Labels -->
+    <string name="pet_name_label">Pet Name:</string>
+    <string name="task_label">Task:</string>
+    <string name="date_time_label">Date &amp; Time:</string>
+
+    <!-- Placeholders -->
+    <string name="pet_name_hint">e.g. Choco</string>
+    <string name="select_date_time">Select date &amp; time</string>
+
+    <!-- Buttons -->
+    <string name="add_task">Add Task</string>
+    <string name="mark_finished">Mark as Finished</string>
+
+    <!-- Section Titles -->
+    <string name="incoming_tasks">Incoming Tasks</string>
+    <string name="view_finished">View Finished Tasks →</string>
+    <string name="finished_tasks_title">Finished Tasks</string>
+    <string name="back_to_main">← Back to PawMinder</string>
+
+    <!-- Task Dropdown Values -->
+    <string-array name="task_types">
+        <item>Feeding</item>
+        <item>Walking</item>
+        <item>Grooming</item>
+        <item>Vet Check</item>
+        <item>Medicine</item>
+    </string-array>
+
+</resources>
