@@ -1,0 +1,6 @@
+NIGHT\THEME.XML
+<resources>
+    <style name="Theme.PawMinder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Ready to run -->
+    </style>
+</resources>
