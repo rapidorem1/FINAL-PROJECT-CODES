@@ -1,0 +1,112 @@
+ACTIVITY_MAIN.XML
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- App Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#6032FF"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Pet Name Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pet_name_label" />
+
+        <!-- Pet Name Input -->
+        <EditText
+            android:id="@+id/etPetName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pet_name_hint"
+            android:inputType="textPersonName"
+            android:autofillHints="name"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Task Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_label" />
+
+        <!-- Task Dropdown -->
+        <Spinner
+            android:id="@+id/spinnerTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Date & Time Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_time_label" />
+
+        <!-- Date & Time Picker Field -->
+        <EditText
+            android:id="@+id/etDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_date_time"
+            android:inputType="none"
+            android:clickable="true"
+            android:focusable="true"
+            android:autofillHints="date"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Add Task Button -->
+        <Button
+            android:id="@+id/btnAddTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_task"
+            android:backgroundTint="#6032FF"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Incoming Tasks Title -->
+        <TextView
+            android:id="@+id/tvIncomingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incoming_tasks"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#6032FF"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Incoming Tasks List -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvIncomingTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <!-- View Finished Tasks Link -->
+        <TextView
+            android:id="@+id/tvViewFinished"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_finished"
+            android:textColor="#6032FF"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>
