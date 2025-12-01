@@ -1,0 +1,35 @@
+ITEM_INCOMING_TASK.XML
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp"
+    android:background="#E8E3FF">
+
+    <TextView
+        android:id="@+id/tvTaskTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choco – Feeding"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvTaskDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11/24/2025, 2:28 PM"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnMarkFinished"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mark_finished"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#6032FF" />
+
+</LinearLayout>
